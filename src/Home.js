@@ -27,6 +27,8 @@ export class Home extends React.Component {
           </header> */}
         </div>
       <h1 className="App-title">The Blue Sky Boys - Country Music's Greatest Brother Duet!</h1>
+      <h3>---Under Construction---</h3>
+      <h2>Welcome to the page honoring The Blue Sky Boys</h2>
         <div>
           <h1>The 1930's</h1>
           <Thirties  />
