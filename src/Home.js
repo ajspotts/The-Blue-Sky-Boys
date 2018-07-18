@@ -2,6 +2,7 @@ import React from 'react';
 // import { Button } from './Button';
 import { Thirties } from './Thirties';
 import { Forties } from './Forties';
+import { Rca } from './Rca';
 import { Sixties } from './Sixties';
 import { Family } from './Family';
 import { Instruments } from './Instruments';
@@ -26,15 +27,20 @@ export class Home extends React.Component {
           <Button type='About' onClick={this.handleClick} />
           </header> */}
         </div>
-      <h1 className="App-title">The Blue Sky Boys - Country Music's Greatest Brother Duet!</h1>
-      <h3>Under Construction</h3>
-      <h2>Welcome to the page honoring The Blue Sky Boys</h2>
+        <div align="center">
+          <h1 className="App-title">The Blue Sky Boys - Country Music's Greatest Brother Duet!</h1>
+          <img src="https://s20.postimg.cc/fpeoi097x/BSBlogo.jpg" alt="BlueSky Boys logo" height={400} width={600}></img>
+          <h2>Welcome to the page honoring The Blue Sky Boys</h2>
+          <h2>***Under Construction***</h2>
+        </div>
         <div>
-          <h1>The 1930's</h1>
+          <h1>The 1930s</h1>
           <Thirties  />
-          <h1>The 1940's</h1>
+          <h1>The 1940s</h1>
           <Forties  />
-          <h1>The 1950's - 60's</h1>
+          <h1>1947 RCA Photoshoot</h1>
+          <Rca />
+          <h1>The 1960s - 70s</h1>
           <Sixties />
           <h1>Family</h1>
           <Family />
