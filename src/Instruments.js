@@ -3,18 +3,18 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
 const photos = [
-  { src: 'https://s20.postimg.cc/v0bujori5/005_Bills_Guitar.jpg', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/672aj1nx9/005_Bills_Martin_Guitar.jpg', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/r3yinq93h/006_Bills_Martin_Mandolin.jpg', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/n7l6rq8od/007_Bills_Oak_Mandolin.jpg', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/tla9uyip9/013_CMHo_FMandolins_Guitar.jpg', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/v0bujori5/005_Bills_Guitar.jpg', captions: "Bill's 1928 Martin 0028, #36548", width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/672aj1nx9/005_Bills_Martin_Guitar.jpg', captions: "Bill's 1928 Martin 0028", width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/r3yinq93h/006_Bills_Martin_Mandolin.jpg', captions: "Bill's Martin model 20 mandolin, #14322", width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/n7l6rq8od/007_Bills_Oak_Mandolin.jpg', captions: "Bill's E.M. Hembree mandolin", width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/tla9uyip9/013_CMHo_FMandolins_Guitar.jpg', captions: "Bill's instruments on display, Country Music Hall of Fame, Nashville", width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/nx3z41brx/015_Hallof_Fame_Exhibit001.jpg', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/hw6a6xual/016_Hallof_Fame_Exhibit002.jpg', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/tla9uy39p/017_Hallof_Fame_Mandolin001.jpg', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/g4dbc2l8d/018_Hallof_Fame_Mandolin002.jpg', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/672aj05wt/019_Martin_Mandolin.jpg', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/epbqne9vh/020_Oak_Mandolin.jpg', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/42hxhyekt/0127_Bill_s_Instruments_1972.jpg', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/42hxhyekt/0127_Bill_s_Instruments_1972.jpg', captions: "A 1972 wall display in Bill & Doris's home included his childhood banjo", width: 0.2, height: 0.2 },
 ];
 
 export class Instruments extends React.Component {

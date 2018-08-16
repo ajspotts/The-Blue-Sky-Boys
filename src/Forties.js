@@ -3,14 +3,15 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
 const photos = [
-  { src: 'https://s20.postimg.cc/5itfznesd/0010_Johnny_Bill_Curly_Earl_ca._1945.jpg', caption: 'Johnny with Bill, Curly and Earl , 1940s', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/fg4gstha5/0016_Bill_Earl_Curly_Johnny_Wesley_1945.jpg', caption: 'Bill,  Earl and Curly (with ties), Johnny & Wesley (kneeling) 1940s', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/wter7o4vh/0011_blk_sedan_40s.jpg', caption: 'Black Sedan', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/rur8t33ml/0012_sedan_side_view.jpg', caption: 'Sedan side view', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/oze5mp4wt/0013_sedan_front_view.jpg', caption: 'Sedan front view', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/eduaab11p/0014_white_sedan_front_view.jpg', caption: 'White sedan', width: 0.2, height: 0.2 },
-  { src: 'https://s20.postimg.cc/sx1fbl4fh/0022_WGST_ca.mid-40_s.jpg', caption: 'Earl, Curly and Bill, WGST, 1940s', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/uc300c0dp/0023_Curly_E_B_wh_sedan.jpg', caption: 'Curly, Earl and Bill, with white sedan', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/zc0g88nzx/Ford_purchase_1-46.jpg', caption: "Receipt for the car they're standing next to in the previous images", width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/wter7o4vh/0011_blk_sedan_40s.jpg', caption: '1949 Lincoln coupe, owner uncertain.  Without a string bass, the three Blue Sky Boys could have traveled comfortably in this car.', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/rur8t33ml/0012_sedan_side_view.jpg', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/oze5mp4wt/0013_sedan_front_view.jpg', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/eduaab11p/0014_white_sedan_front_view.jpg', caption: '1941 Buick sedan, owner uncertain.', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/5itfznesd/0010_Johnny_Bill_Curly_Earl_ca._1945.jpg', caption: 'unknown, Bill Bolick, Curly Parker, Earl Bolick, late 1940s', width: 0.2, height: 0.2 },
+  { src: 'https://s20.postimg.cc/sx1fbl4fh/0022_WGST_ca.mid-40_s.jpg', caption: 'Earl, Curly and Bill, probably WGST, late 1940s', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/l4arjnvwd/0024_same_shoot_0022.jpg', caption: 'Earl, Curly and Bill, WGST, 1940s', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/4gj9h6vzx/0025_same_shoot_0022.jpg', caption: 'Earl, Curly and Bill, WGST, 1940s', width: 0.2, height: 0.2 },
   { src: 'https://s20.postimg.cc/xixjjwfnx/0026_Curly_same_as_0022.jpg', caption: 'Curly takes a break, WGST, 1940s', width: 0.2, height: 0.2 },
